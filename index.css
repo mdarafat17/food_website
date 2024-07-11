@@ -1,0 +1,87 @@
+body {
+    background-color: #E8E4E3;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: #e30e0e;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    color: #fff;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.popup img {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 3px;
+    border-color: white;
+}
+
+.hero-section {
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    background-image: url('hiro.webp');
+    background-size: cover; /* Cover entire container */
+    background-position: center; /* Center align background image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group {
+    margin: -300px auto 300px auto;
+}
+
+.text01 {
+    margin: -5px auto 250px auto;
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.asol {
+    margin: -500px 0 0 0;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+.text02 {
+    font-size: 150px;
+    color: white;
+}
+
+.hidden {
+    display: none !important;
+}
